@@ -1,0 +1,196 @@
+*{
+	box-sizing:border-box;
+}
+/*body{
+	padding-left: 40px;
+	padding-right: 30px;
+	padding-top: 20px;
+}
+.search{
+	display: inline-flex;
+
+}
+
+.cart{
+	float:right;
+	display: inline-block;
+}
+
+h1 a{
+	text-decoration: none;
+	color:#333;
+	max-width:150px;
+	margin:0;
+	padding-top:30px;
+	padding-bottom: 60px;
+}
+
+aside a{
+	width:200px;
+	display: block;
+	color:#333;
+	border-bottom:1px solid grey;
+	line-height: 50px;
+}
+
+aside a:first-child{
+	border-top:1px solid grey;
+}
+
+
+.grid-container{
+	display:grid;
+	grid-template-columns: 10% auto auto auto;
+}
+.column1{
+	width:10%;
+	float:left;
+	clear:both;
+}
+
+.column2{
+	width: 90%;
+	d
+}
+
+.column2 p{
+	font-size:24px;
+	font-family:serif;	
+}
+
+.column2 .pic{
+	padding-bottom: 15px;
+	
+
+}
+
+.column3{
+		width: 50%;
+		float:left;
+		clear:both;
+		
+}
+
+.footer{
+	height: 20em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+ .column3 li{
+	list-style-type: none;
+	display: block;
+	color: #333;
+
+}
+.column4{
+	width:50%;
+}
+
+.btn a{
+	color:white;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	border-style: none;
+    
+}
+
+
+.card p{
+	text-align: center;
+	border: none;
+
+}*/
+.search{
+	display: inline-flex;
+}
+
+.search>p{
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.cart {
+	display: inline-block;
+	float:right;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns: 15% auto;
+}
+
+.aside{
+    background-color: #FFFFFF;
+	
+	
+}
+
+.aside a{
+	display: block;
+	border-bottom: 1px solid black;
+	line-height: 45px;
+	color:grey;
+	text-decoration: none;
+}
+
+.aside a:first-child{
+	border-top: 1px solid black;
+}
+ 
+ .icons{
+ 	font-size: 25px;
+ 	padding-top: 10px;
+ }
+.main{
+	
+	display: grid;
+	grid-template-columns: auto auto auto ;
+	grid-template-rows: auto auto auto;
+	
+	
+}
+
+.card .price{
+	text-decoration: none;
+	color:grey;
+
+}
+
+.card p{
+	text-align: center;
+	color:grey;
+}
+
+.grid-wrapper{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	padding-top: 10px; 
+	margin-left: 150px;
+	padding-left: 150px;
+}
+
+
+.grid-wrapper .card{
+	width: auto;
+	height: auto;
+	align-content: center;
+	background-color: #DCDCDC;
+}
+
+
+
+h2{
+	
+	text-align: center;
+
+	}
+
+h3{
+	margin-left: 100px;
+	color: #333;
+}
